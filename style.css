@@ -6,6 +6,25 @@ body, html {
     margin: 0;
 }
 
+input {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -48,7 +67,7 @@ h2 {
 }
 
 .name {
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     text-align: center;
     background-color: white;
     width: 100%;
