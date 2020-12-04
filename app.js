@@ -1,23 +1,24 @@
 const mySpecialButton = document.getElementById('my-special-button');
 const mySpecialName = document.getElementById('my-special-name');
 const mySpecialInput = document.getElementById('my-special-input');
+const changeColorPink = document.getElementById('change-color-pink')
+const changeColorGreen = document.getElementById('change-color-green')
+const changeColorBlue = document.getElementById('change-color-blue')
+const tagColor = document.getElementById('hello-id')
 
 mySpecialButton.addEventListener('click', () => {
     mySpecialName.textContent = mySpecialInput.value;
     mySpecialInput.value = '';
 })
 
-const changeColorPink = document.getElementById('change-color-pink')
 changeColorPink.addEventListener('click', () => {
-    document.body.style.backgroundColor = "pink";
+    tagColor.style.backgroundColor = "pink";
 })
 
-const changeColorGreen = document.getElementById('change-color-green')
 changeColorGreen.addEventListener('click', () => {
-    document.body.style.backgroundColor = "lightgreen";
+    tagColor.style.backgroundColor = "lightgreen";
 })
 
-const changeColorBlue = document.getElementById('change-color-blue')
 changeColorBlue.addEventListener('click', () => {
-    document.body.style.backgroundColor = "lightblue";
+    tagColor.style.backgroundColor = "lightblue";
 })
