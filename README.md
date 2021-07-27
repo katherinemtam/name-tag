@@ -1,1 +1,2 @@
-# lab-02a-name-tag
+# name-tag
+Select a color and create your own nametag
